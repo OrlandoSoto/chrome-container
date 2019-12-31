@@ -1,2 +1,2 @@
 # chrome-container
-google chrome GUI running inside a container
+Firefox GUI running inside a container
