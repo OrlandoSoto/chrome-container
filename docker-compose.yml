@@ -1,0 +1,11 @@
+---
+version: "3.5"
+services:
+  chrome:
+    build: .
+    restart: always
+    volumes:
+      - /tmp/.X11-unix/:/tmp/.X11-unix/
+    environment:
+      - DISPLAY
+    network_mode: host
